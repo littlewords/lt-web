@@ -1,0 +1,24 @@
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h4{
+	font-size: .3rem;
+	padding: .2rem;
+}
+p{
+	font-size: .2rem;
+}
+.movie {
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	float: left;
+}

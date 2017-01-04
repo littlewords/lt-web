@@ -1,0 +1,32 @@
+{
+ /**
+   * This is a sample configuration file for PM2
+   */
+
+  /**
+   * Here we declare the apps that must be managed by PM2
+   * All options are listed here:
+   * https://github.com/Unitech/PM2/blob/master/ADVANCED_README.md#json-app-declaration
+   *
+   */
+  "apps" : [{
+    "name"               : "inode",
+    "script"             : "bin/server",
+    "env": {
+      "COMMON_VARIABLE": "true",
+      "NODE_ENV": "production",
+      // "DEBUG": "BufferedSocket"
+    },
+    "exec_interpreter"   : "node",
+    "node_args"          : "--harmony",
+    "exec_mode"          : "cluster_mode",
+    "instances"          : 0,
+    "log_date_format"    : "YYYY-MM-DD HH:mm Z",
+    "max_memory_restart" : "700M",
+    "merge_logs"         : true,
+    // "error_file"         : "/var/sankuai/logs/inode/error.log",
+    // "out_file"           : "/var/sankuai/logs/inode/out.log",
+    // "pid_file"           : "/var/sankuai/logs/inode/process.pid",
+    "watch"              : false
+  }]
+}

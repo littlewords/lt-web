@@ -1,0 +1,6 @@
+{
+    "common": [
+        "./client/js/lib/vue.min.js"
+    ],
+    "/demo/vue": "./client/js/page/demo/vue.js"
+}

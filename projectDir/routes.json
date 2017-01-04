@@ -1,0 +1,12 @@
+{
+    "/ajax/test/data1": {
+        "router": "routes/ajax/test/data1.js",
+        "method": "get",
+        "type": "ajax"
+    },
+    "/demo/vue": {
+        "router": "routes/demo/vue.js",
+        "method": "get",
+        "type": "page"
+    }
+}

@@ -1,0 +1,4 @@
+<script src="{{=it.commonjs}}"></script>
+<script src="{{=it.entryjs}}"></script>
+</body>
+</html>
